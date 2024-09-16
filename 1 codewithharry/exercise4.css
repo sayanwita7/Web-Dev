@@ -1,0 +1,18 @@
+:root{
+    --c1: rgb(146, 93, 231);
+    --c2: rgb(138,43,226);
+    --c3: rgb(9,73,73);
+    --op:0.5;
+    --pd:20px;
+
+}
+
+.navi{
+    background-color: var(--c2);
+    padding:var(--pd);
+}
+span{
+    background-color: var(--c1);
+    padding: var(--pd);
+    color: var(--c3);
+}
